@@ -10,13 +10,18 @@ public class Main {
 
         System.out.println("Game Over - true or false");
         boolean gameOver = sc.nextBoolean();
+
         System.out.println("Enter your score");
         int score = sc.nextInt();
+
         System.out.println("Enter completed level");
         int levelCompleted = sc.nextInt();
+
         System.out.println("Enter bonus");
         int bonus = sc.nextInt();
+
         int highScore = calculateScore(gameOver,score,levelCompleted,bonus);
+
         System.out.println("Final score is "+ highScore);
 
     }
